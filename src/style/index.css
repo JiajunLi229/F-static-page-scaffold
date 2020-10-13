@@ -6,7 +6,7 @@ body {
 }
 
 main {
-  padding: 0 50px 0 50px;
+  padding: 0 200px 50px 200px;
 }
 
 .header {
@@ -15,7 +15,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 0 200px 0 200px;
 }
 
 .register-button {
@@ -32,7 +32,49 @@ main {
   font-size: 2.5em;
   margin: 10px 0;
 }
+
+.images {
+  height: 700px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.centent {
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 section {
   display: flex;
   align-items: center;
+}
+
+advertisement {
+  display: flex;
+  justify-content: space-between;
+}
+
+figcaption {
+  color: rgb(158, 158, 158);
+}
+
+.title-of-adv {
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.start {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgb(233, 231, 231);
+  border-color: rgb(39, 39, 39);
+  border-width: 1px;
 }
